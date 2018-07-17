@@ -6,4 +6,4 @@ function destructivelyRemoveFirstKitten(array) { kittens.shift(); return kittens
 function prependKitten(name) { return [ "Arnold", ...kittens ] }
 function appendKitten(name) { return [...kittens, "Broom"] }
 function removeLastKitten(array) { return kittens.slice(0, kittens.length -1) }
-function removeFirstKitten(array) { console.log(kittens.splice(0, 1)); return kittens }
+function removeFirstKitten(array) { return kittens.splice(0, 1) }
