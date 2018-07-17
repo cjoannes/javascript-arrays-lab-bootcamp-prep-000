@@ -1,8 +1,8 @@
 var kittens = ["Milo", "Otis", "Garfield"]
-function destructivelyAppendKittens(name) { appendKittens('Ralph'); return kittens }
-function destructivelyPrependKittens(name) { prependKittens(); return kittens }
-function destructivelyRemoveLastKittens(array) { kittens.pop(); return kittens }
-function destructivelyRemoveFirstKitten(array) { window.kitten.shift(); return kitten }
-function prependKitten(name) { prependKitten(0); return kitten }
-function removeLastKitten(array) { return kitten.slice(0, kitten.length -1) }
-function removeFirstKitten(array) { console.log(kitten.slice(-3)); return kitten }
+function destructivelyAppendKitten(name) { appendKitten('Ralph'); return kittens }
+function destructivelyPrependKitten(name) { prependKitten(); return kittens }
+function destructivelyRemoveLastKitten(array) { kittens.pop(); return kittens }
+function destructivelyRemoveFirstKitten(array) { kittens.shift(); return kittens }
+function prependKitten(name) { prependKitten(0); return kittens }
+function removeLastKitten(array) { return kittens.slice(0, kittens.length -1) }
+function removeFirstKitten(array) { console.log(kittens.slice(-3)); return kittens }
