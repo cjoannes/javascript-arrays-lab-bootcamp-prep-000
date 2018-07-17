@@ -1,6 +1,6 @@
 var kittens = ["Milo", "Otis", "Garfield"]
 function destructivelyAppendKitten(name) { appendKitten('Ralph'); return kittens }
-function destructivelyPrependKitten(name) { kittens.concat('Bob'); return kittens }
+function destructivelyPrependKitten(name) { console.log(kittens.concat('Bob')); return kittens }
 function destructivelyRemoveLastKitten(array) { kittens.pop(); return kittens }
 function destructivelyRemoveFirstKitten(array) { kittens.shift(); return kittens }
 function prependKitten(name) { prependKitten('Bob'); return kittens }
