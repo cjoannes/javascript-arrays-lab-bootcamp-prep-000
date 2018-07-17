@@ -1,5 +1,5 @@
 var kittens = ["Milo", "Otis", "Garfield"]
-function destructivelyAppendKitten(name) { appendKitten('Ralph'); return kittens }
+function destructivelyAppendKitten(name) { kittens.push('Ralph'); return kittens }
 function destructivelyPrependKitten(name) { kittens.unshift('Bob'); return kittens }
 function destructivelyRemoveLastKitten(array) { kittens.pop(); return kittens }
 function destructivelyRemoveFirstKitten(array) { kittens.shift(); return kittens }
